@@ -9,6 +9,9 @@ This starter project folder uses the Bootstrap 3 Sass files to create a custom t
 Demo: https://jacoblett.github.io/Sparky/
 
 ###Get Started
+
 npm install
+
 bower install
+
 start grunt watch
