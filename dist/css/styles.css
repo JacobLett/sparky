@@ -5814,6 +5814,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+footer {
+  margin-top: 3em; }
+
 .glyphicon-fire {
   color: red; }
 
