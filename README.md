@@ -8,6 +8,9 @@ This starter project folder uses the Bootstrap 3 Sass files to create a custom t
 
 Demo: https://jacoblett.github.io/Sparky/
 
+##Use this if
+You need to support IE9 and below
+
 ###Get Started
 
 npm install
