@@ -1,42 +1,12 @@
-#Flint
-##Bootstrap 3 Starter Template
+#Sparky
+##Bootstrap 3 Starter
+By: Jacob Lett of https://bootstrapcreative.com/
 
-This starter project folder uses the Bootstrap 3 less files to create a custom theme. 
+This starter project folder uses the Bootstrap 3 Sass files to create a custom theme. 
 
-Learn more: https://bootstrapcreative.com/
+Demo: https://jacoblett.github.io/Sparky/
 
-###Prerequisites for use
-- Familiar with Grunt and compiling LESS and javascript
-- jQuery basics
-- Bootstrap 3 Framework classes
-
-
-####styles.less
-```
-// The core bootstrap styles
-@import "bootstrap/bootstrap.less";
-
-// Bootstrap default overrides - settings and mixins
-@import "my-variables.less";
-@import "my-mixins.less";
-
-// Add any javascript plugin styles here
-@import "plugins.less";
-
-// Custom fonts
-@import "fonts.less";
-
-// Helper classes
-@import "helper.less";
-
-// Your main core theme styles
-@import "main.less";
-
-```
-
-bower install fontawesome --save
-bower install bootstrap-sass --save
-
-https://www.npmjs.com/package/grunt-postcss
-
+###Get Started
+npm install
+bower install
 start grunt watch
