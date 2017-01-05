@@ -860,16 +860,28 @@ Sparky Code licensed MIT <br>
 </div>
   
 </footer>
-
-
-
+        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="dist/js/jquery.min.js"><\/script>')</script>
-
+        
+        <!-- Your custom scripts compressed  -->
         <script src="dist/js/scripts.min.js" async></script>
 
         <!-- Add scripts that are not critical but simply enhance - like social sharing widgets -->
-        <script src="dist/js/defer.min.js" defer></script>
+        <script type="text/javascript">
+            function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "dist/js/defer.min.js";
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+        </script>
+
+
 
     </body>
 </html>
