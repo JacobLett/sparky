@@ -1,0 +1,101 @@
+module.exports = function(grunt) {
+ 
+  // Project configuration.
+  grunt.initConfig({
+      pkg: grunt.file.readJSON('package.json'),
+
+      
+      /*  */
+      concat: {
+        options: {
+          stripBanners: false,
+          sourceMap: true,
+          banner: '',
+        },
+        scripts: {
+        src: ['bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', 'js/plugins.js', 'js/main.js'],
+        dest: 'dist/js/scripts.js',
+      },
+      },
+
+                        
+            
+      /*  */ 
+      uglify: {
+          defer: {
+             src: ['js/defer.js'], //input
+            dest: 'dist/js/defer.min.js' //output
+          },
+          scripts: {
+             src: ['dist/js/scripts.js'], //input
+            dest: 'dist/js/scripts.min.js' //output
+          },
+      },
+
+       
+              
+         
+      /*  */
+      sass: {
+              options: {
+                  sourceMap: true
+              },
+              dist: {
+                  files: {
+                      'dist/css/styles.css': 'sass/styles.scss'
+                  }
+              }
+      },
+
+
+      /*  */
+      postcss: {
+        options: {
+          map: true,
+          processors: [
+              require('pixrem')(), // add fallbacks for rem units
+              require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+              require('postcss-flexbugs-fixes'),
+              //require('cssnano')() // minify the result
+          ]
+        },
+        dist: {
+          src: 'css/*.css'
+        }
+      },
+
+
+      /*  */
+      watch: {
+        scripts: {
+          files: ['js/*.js'],
+         tasks: ['concat', 'uglify'],
+          options: {
+            spawn: false,
+          },
+        },
+        styles: {
+          files: ['sass/*.scss'],
+           tasks: ['sass', 'postcss'],
+          options: {
+            spawn: false,
+          },
+        },
+      },
+
+
+  });
+    // END GRUNT
+ 
+
+  // Load the plugins
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-postcss');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+  // Default task(s).
+  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'postcss']);
+
+};

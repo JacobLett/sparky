@@ -1,0 +1,14 @@
+// The core bootstrap styles
+//@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+
+// Bootstrap default overrides - settings and mixins
+@import "sparky-variables";
+
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+// Add any javascript plugin styles here
+@import "plugins";
+
+// Your main core theme styles
+@import "main";
+

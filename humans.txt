@@ -1,0 +1,14 @@
+/* AUTHOR */
+	Jacob Donald Lett
+	Site: https://bootstrapcreative.com/contact-us/
+	Twitter: @BootstrapC
+	Location: Detroit, Michigan, USA.
+                                   				
+/* THANKS */						
+	Twitter Bootstrap, Owl Carousel, Stack Overflow
+
+/* SITE */                         
+	Last update: 1/16/2016                    
+	Standards: HTML5, CSS3
+	Components: Modernizr, jQuery, Bootstrap 3, Owl Carousel, Scroll to ID, Animate
+	Software: Software used for the development
