@@ -13,12 +13,26 @@ You need to support IE9 and below
 
 ###Get Started
 
-git clone https://github.com/JacobLett/Sparky.git [your-folder-name]
+Create a new repo in your GitHub account and copy this repo clone URL
 
-rm -r .git
+https://github.com/JacobLett/Sparky.git
+
+In your new repo on GitHub.com Click the "+" next to your profile image and select "import respository" and paste in the clone url
+
+Once the new repo is created click on the green button that says "open in desktop"
+
+In your windows GitHub application right click on the new repo and select "open in explorer"
+
+Open up git shell and enter the following commands
 
 npm install
 
 bower install
 
 start grunt watch
+
+Commit your changes and sync to your new repo
+
+###To test the site using GitHub pages
+Go to your repo settings on GitHub.com and choose your master branch for github pages.
+
