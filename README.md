@@ -15,6 +15,8 @@ You need to support IE9 and below
 
 git clone https://github.com/JacobLett/Sparky.git [your-folder-name]
 
+rm -r .git
+
 npm install
 
 bower install
