@@ -36,8 +36,7 @@ Commit your changes and sync to your new repo
 ###To test the site using GitHub pages
 Go to your repo settings on GitHub.com and choose your master branch for github pages.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD" frameborder="0" allowfullscreen></iframe>
 
-[![Alt text for your video](http://img.youtube.com/vi/PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD.jpg)](http://www.youtube.com/watch?v=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD)
+[![Alt text for your video](http://img.youtube.com/vi/w6V5Cxcjdes.jpg)](https://www.youtube.com/embed/videoseries?list=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD)
 
 
