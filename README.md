@@ -37,6 +37,6 @@ Commit your changes and sync to your new repo
 Go to your repo settings on GitHub.com and choose your master branch for github pages.
 
 
-[![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/w6V5Cxcjdes/0.jpg)](http://www.youtube.com/embed/videoseries?list=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD)
+[![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/w6V5Cxcjdes/0.jpg)](https://bootstrapcreative.com/resources/sparky-3/)
 
 
