@@ -1,5 +1,5 @@
 {
-  "name": "flint-bootstrap-4-starter-template",
+  "name": "sparky-bootstrap-3-sass-starter-template",
   "version": "1.0.0",
   "dependencies": {
     "grunt-cssnano": "^2.1.0",
