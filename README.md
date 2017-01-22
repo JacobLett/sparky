@@ -36,7 +36,7 @@ Commit your changes and sync to your new repo
 ###To test the site using GitHub pages
 Go to your repo settings on GitHub.com and choose your master branch for github pages.
 
-
+#Get Started Tutorial Screencast
 [![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/w6V5Cxcjdes/0.jpg)](https://bootstrapcreative.com/resources/sparky-3/)
 
 
