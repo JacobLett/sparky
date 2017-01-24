@@ -32,7 +32,7 @@ You need to support IE9 and below
 
 - Commit your changes and sync to your new repo
 
-###To test the site using GitHub pages
+####To test the site using GitHub pages
 Go to your repo settings on GitHub.com and choose your master branch for github pages.
 
 ## Are you new to Node.js and Grunt projects?
