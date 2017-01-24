@@ -18,7 +18,7 @@ You need to support IE9 and below
 
 - In your new repo on GitHub.com Click the "+" next to your profile image and select "import respository" and paste in the clone url
 
--Once the new repo is created click on the green button that says "open in desktop"
+- Once the new repo is created click on the green button that says "open in desktop"
 
 - In your windows GitHub application right click on the new repo and select "open in explorer"
 
