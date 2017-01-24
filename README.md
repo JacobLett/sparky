@@ -38,6 +38,6 @@ Go to your repo settings on GitHub.com and choose your master branch for github 
 ## Are you new to Node.js and Grunt projects?
 I created a 7-part video series to show you how to get setup and then customize Sparky.
 
-[![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/hJV-4rhjK4Q/0.jpg)](https://www.youtube.com/playlist?list=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD/)
+[![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/hJV-4rhjK4Q/0.jpg)](https://www.youtube.com/playlist?list=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD)
 
 
