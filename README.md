@@ -28,7 +28,7 @@ You need to support IE9 and below
 
     bower install
 
-    start grunt watch
+    grunt watch
 
 - Commit your changes and sync to your new repo
 
