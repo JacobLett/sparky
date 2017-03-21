@@ -62,4 +62,5 @@ All you need is the compiled files in the dist folder. The readme file helps a f
 All you have to do is close the shell window. If you enter the command "start grunt watch" it will open two shell windows. One watching and the other for new commands. I usually just do "grunt watch" and leave it watching all day as I go in and out of the day. Then when I go home I commit my changes to github and close the command shell.
 
 ## What chrome extension does the auto refresh?
-I use https://chrome.google.com/webstore/detail/livejs/fnenjmjepccoionjgdgimlnppidghbbg﻿
+I use https://chrome.google.com/webstore/detail/livejs/fnenjmjepccoionjgdgimlnppidghbbg
+You can also include a js file in your project while developing http://livejs.com/
