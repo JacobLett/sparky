@@ -1,18 +1,19 @@
-#Sparky
-##Bootstrap 3 Starter Project Folder
+# Sparky
+
+## Bootstrap 3 Starter Project Folder
 By: Jacob Lett of https://bootstrapcreative.com/
 
 Bootstrap Sass + Custom scripts and styles + Grunt 
 
 This starter project folder uses the Bootstrap 3 Sass files to create a custom theme. 
 
-##Demo
+## Demo
 https://jacoblett.github.io/Sparky/
 
-##Use this if
+## Use this if
 You need to support IE9 and below
 
-###Get Started
+### Get Started
 
 - Create a new repo in your GitHub account and copy this repo clone URL https://github.com/JacobLett/Sparky.git
 
@@ -32,12 +33,27 @@ You need to support IE9 and below
 
 - Commit your changes and sync to your new repo
 
-####To test the site using GitHub pages
+#### To test the site using GitHub pages
 Go to your repo settings on GitHub.com and choose your master branch for github pages.
 
 ## Are you new to Node.js and Grunt projects?
 I created a 7-part video series to show you how to get setup and then customize Sparky.
 
-[![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/hJV-4rhjK4Q/0.jpg)](https://www.youtube.com/playlist?list=PLg0WZ0G7kSNLLK85vTyUuXrmhC5CBEfmD)
+[![Bootstrap 3 Sass Customization Tutorial](http://img.youtube.com/vi/hJV-4rhjK4Q/0.jpg)](https://www.youtube.com/watch?v=FsIPmDe-3KU&lc=z13owlkayn3iyfeqw04cg1yzan2dsjnbec0)
 
+## Common Questions
 
+### Where is the Css compiled , i can not see where it compiles the sparky variables?
+It is compiled in the dist or distribution folder. This folder will contain anything processed or compiled by Grunt - https://github.com/JacobLett/Sparky/tree/master/dist/css
+
+### Can you add more scss files in sass folder like _buttons.scss?
+You sure can. Just add the underscore prefix and then reference it the style.scss file so it is imported in https://github.com/JacobLett/Sparky/blob/master/sass/styles.scss
+
+### When you upload the site or page to the server which are the files you have to upload?
+All you need is the compiled files in the dist folder. The readme file helps a future developer find the source code in a public/private repo
+
+dist
+README.md
+humans.txt
+index.html
+robots.txt
