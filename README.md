@@ -52,8 +52,8 @@ You sure can. Just add the underscore prefix and then reference it the style.scs
 ### When you upload the site or page to the server which are the files you have to upload?
 All you need is the compiled files in the dist folder. The readme file helps a future developer find the source code in a public/private repo
 
-dist
-README.md
-humans.txt
-index.html
-robots.txt
+- dist
+- README.md
+- humans.txt
+- index.html
+- robots.txt
