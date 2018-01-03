@@ -2,9 +2,9 @@
 ##Bootstrap 3 Starter Project Folder
 By: Jacob Lett of https://bootstrapcreative.com/
 
-Bootstrap Sass + Custom scripts and styles + Grunt 
+Bootstrap Sass + Custom scripts and styles + Grunt
 
-This starter project folder uses the Bootstrap 3 Sass files to create a custom theme. 
+This starter project folder uses the Bootstrap 3 Sass files to create a custom theme.
 
 Demo: https://jacoblett.github.io/Sparky/
 
@@ -15,6 +15,14 @@ You need to support IE9 and below
 
 npm install
 
-bower install
+npm run watch
 
-start grunt watch
+
+npm install bootstrap@4.0.0-beta.3 --save-dev
+
+npm run build
+OR
+npm run-script build
+
+
+https://github.com/damonbauer/npm-build-boilerplate
