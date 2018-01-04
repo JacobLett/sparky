@@ -20,10 +20,10 @@
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
-    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss --source-map-root file://${PWD}/ --source-map-embed true",
     "lint": "eslint src/js || true",
     "lint-scss": "stylelint src/scss/*.scss --syntax scss || true",
-    "uglify": "mkdirp dist/js -p && uglifyjs src/js/*.js -m -o dist/js/scripts.js && uglifyjs src/js/*.js -m -c -o dist/js/scripts.min.js && uglifyjs src/js/*.js -m -c -o dist/js/scripts.min.js",
+    "uglify": "mkdirp dist/js -p && uglifyjs src/js/plugins.js src/js/main.js > -m -c -o dist/js/scripts.min.js && uglifyjs src/js/defer.js > -m -c -o dist/js/defer.min.js && uglifyjs src/js/jquery.js > -m -c -o dist/js/jquery.min.js",
     "imagemin": "imagemin src/images/* -o dist/images",
     "build:css": "run-s lint-scss scss autoprefixer",
     "build:js": "run-s lint uglify",
