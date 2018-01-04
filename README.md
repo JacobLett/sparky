@@ -8,7 +8,7 @@ Bootstrap Sass + Custom scripts and styles + Grunt
 This starter project folder uses the Bootstrap 3 Sass files to create a custom theme. 
 
 ## Demo
-https://jacoblett.github.io/Sparky/
+https://jacoblett.github.io/sparky/
 
 ## Use this if
 You need to support IE9 and below
